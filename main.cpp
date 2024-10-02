@@ -1,4 +1,4 @@
-// Lab 14: Color Class
+// Lab 16: Color Class
 // COMSC-210 - Ibrahim Alatig 
 
 // UML template
@@ -35,7 +35,7 @@ public:
     Color() : red(0), green(0), blue(0) {}
      
     // parameter constructor
-    Color(int r, int g, int b) : red(r), green(g), blue(b){}
+    Color(int r, int g, int b) : red(r), green(g), blue(b) {}
     
     // partial constructor 
     Color(int r, int g) : red(r), green(g), blue(0) {}
