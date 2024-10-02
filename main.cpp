@@ -31,7 +31,7 @@ class Color {
     int blue;
 
 public:
-    // defualt constructor
+    // default constructor
     Color() : red(0), green(0), blue(0) {}
      
     // parameter constructor
@@ -76,6 +76,8 @@ int main() {
     Color color3(0, 0, 255); // Blue
     Color color4(255, 255, 0); // yellow
     Color color5(0, 255, 255); // cyan
+    Color color6; // default constructor
+    Color color7(128, 128); //partial constructor
 
     cout << "Color values:" << endl;
     color1.print();
@@ -83,6 +85,8 @@ int main() {
     color3.print();
     color4.print();
     color5.print();
+    color6.print(); // default
+    color7.print(); // partial
 
     return 0;
 }
