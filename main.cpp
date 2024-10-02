@@ -31,10 +31,14 @@ class Color {
     int blue;
 
 public:
-    // constructor
+    // defualt constructor
     Color() : red(0), green(0), blue(0) {}
-
+     
+    // parameter constructor
     Color(int r, int g, int b) : red(r), green(g), blue(b){}
+    
+    // partial constructor 
+    Color(int r, int g) : red(r), green(g), blue(0) {}
 
     void setRed(int r) {
         red = r;
